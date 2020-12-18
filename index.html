@@ -12,11 +12,10 @@
   <body>
     <textarea
       name="text"
-      id="normaltext"
+      id="texttotranslate"
       cols="30"
       rows="10"
       autofocus
-      maxlength="10000"
       placeholder="Insert text to translate"
     ></textarea>
     <textarea
@@ -25,7 +24,6 @@
       cols="30"
       rows="10"
       disabled
-      maxlength="10000"
     ></textarea>    
     <button
       class="clearButton"
@@ -33,7 +31,7 @@
       Clear
     </button>
     
-    <button class="translateButton" onclick="translateText()" autofocus>Translate</button>
+    <button class="translateButton" onclick="translateText()">Translate</button>
 
     <p class="title">How does it work?</p>
 
