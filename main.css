@@ -120,12 +120,12 @@ body {
     #texttotranslate {
       position: absolute;
       top: 60px;
-      left: 23px;
+      left: 30px;
     }
     #translatedtext {
       position: absolute;
       top: 380px;
-      left: 23px;
+      left: 30px;
     }
     .title {
       color: white;
