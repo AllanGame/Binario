@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet"/>
+    <title>Binario</title>
+  </head>
+  <body>
+    <textarea
+      name="text"
+      id="normaltext"
+      cols="30"
+      rows="10"
+      autofocus
+      maxlength="10000"
+      placeholder="Insert text to translate"
+    ></textarea>
+    <textarea
+      name="text"
+      id="translatedtext"
+      cols="30"
+      rows="10"
+      disabled
+      maxlength="10000"
+    ></textarea>    
+    <button
+      class="clearButton"
+      onclick="document.getElementById('normaltext').value = '';">
+      Clear
+    </button>
+    
+    <button class="translateButton" onclick="translateText()" autofocus>Translate</button>
+
+    <p class="title">How does it work?</p>
+
+    <script src="app.js"></script>
+  </body>
+</html>
